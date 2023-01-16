@@ -1,0 +1,18 @@
+.button {
+  width: 198px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.form {
+  width: 75%;
+  margin-bottom: 56px;
+}
+
+.title {
+  text-align: center;
+}

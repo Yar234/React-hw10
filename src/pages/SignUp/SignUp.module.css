@@ -1,0 +1,11 @@
+.center {
+  padding-left: calc(50% - calc(1400 / 2));
+  padding-right: calc(50% - calc(1400 / 2));
+}
+
+.form {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  gap: 12px;
+}

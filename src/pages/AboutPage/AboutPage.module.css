@@ -1,0 +1,12 @@
+.center {
+  padding-left: calc(50% - calc(1400px / 2));
+  padding-right: calc(50% - calc(1400px / 2));
+}
+
+.title {
+  text-align: center;
+}
+
+.line {
+  background-color: #1976d2;
+}
