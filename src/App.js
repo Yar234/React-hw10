@@ -84,9 +84,8 @@ export function App() {
               <Route path="gists" element={<GistsList />} />
               <Route path="signin" element={<PublicRoute component={<SignIn />} />} />
               <Route path="signup" element={<SignUp />} />
+              <Route path="*" element={<h2>404 Page not FOUND</h2>} />
             </Route>
-
-            <Route path="*" element={<h2>404 Page not FOUND</h2>} />
           </Routes>
         </ThemeContext.Provider>
       </PersistGate>
